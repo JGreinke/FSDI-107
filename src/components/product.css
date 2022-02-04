@@ -1,0 +1,27 @@
+.product{
+    display: inline-block; 
+    width: 270px; 
+    height: 350px; 
+    padding: 10px; 
+}
+img{
+    max-height: 400px;
+}
+.product-item{
+    border: 1px solid gray; 
+    padding: 1px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+
+}
+.cart-btn{
+    background-color: black;
+    color: white; 
+}
+label{
+    display: inline-block;
+}
+.image-cont{
+    max-height: 300px;
+    overflow: hidden;
+}
