@@ -41,6 +41,14 @@ var catalog = [
     },
     {
         id: "123123123123",
+        title: "Boat / Jet Ski Experience", 
+        image: "jetski.jpg",
+        description: "product description",
+        price: 200, 
+        category: "Water Experience"
+    },
+    {
+        id: "123123123123",
         title: "Pottery Experience", 
         image: "pottery.jpg",
         description: "product description",
@@ -63,22 +71,7 @@ var catalog = [
         price: 200, 
         category: "Sky's The Limit"
     },
-    {
-        id: "123123123123",
-        title: "Boat / Jet Ski Experience", 
-        image: "text1.png",
-        description: "product description",
-        price: 200, 
-        category: "Water Experience"
-    },
-    {
-        id: "123123123123",
-        title: "Balloon Experience", 
-        image: "text1.png",
-        description: "product description",
-        price: 200, 
-        category: "travel"
-    }
+    
 ]
 
 class DataService{

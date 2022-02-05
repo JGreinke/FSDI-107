@@ -1,6 +1,20 @@
-
-
-.navbar h1{
-    color: darkgoldenrod; 
-    text-align: center;
+.navbar{
+    background-color: #151712;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #151712;
+  }
+  
+  li {
+    float: left;
+    margin-left: 20px; 
+    padding: 5px; 
+    color: white; 
+  }
+  
+  

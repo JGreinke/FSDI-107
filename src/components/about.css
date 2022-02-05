@@ -1,0 +1,13 @@
+.header {
+    height: 150px;
+    margin-top: 15px; 
+    margin-bottom: 25px; 
+    margin-left: 2.5%;
+    padding-top: 2%;
+    width: 95%; 
+    background-color: #4D2319;
+    color: white; 
+    line-height: 5px;
+    box-shadow: 0px 0px 15px 0px #FFFFFF;
+}
+

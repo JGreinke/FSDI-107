@@ -5,7 +5,11 @@ const NavBar = () => {
     // the arrow function will allow more options with React. ex. click events won't work with traditional functions
     return(
         <div className="navbar">
-            <h1>NavBar will be here!</h1>
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
         </div>
     )
 }

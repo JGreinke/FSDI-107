@@ -12,11 +12,8 @@ function App() {
   {/* anything add to a function goes ahead of the return*/}
   return (
     <div className="App">
-          <NavBar></NavBar>
-      <h1>Welcome to my online store!</h1>
+      <NavBar></NavBar>
       <About />
-      <QuantityPicker />
-      <QuantityPicker />
       <Catalog/>
       <FooterSection />
       {/* the FooterSection is an example of how to self close */}
