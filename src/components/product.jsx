@@ -1,7 +1,20 @@
 import QuantityPicker from "./quantityPicker";
 import "./product.css";
+import { useState } from "react"; 
 
 const Product = (props) => {
+    const [quantity, setQuantity] = useState(0);
+
+    const onQuantityChange = (value) => {
+        console.log("qty change", value); 
+        setQuantity(value); 
+    }
+
+    const getTotal = () => {
+        let total= (quantity*props.data.price); 
+        return "$" + total.toFixed(2);
+    }
+
     return (
         <div className="product">
             <div className="product-item">
@@ -16,11 +29,11 @@ const Product = (props) => {
             
             <div className="product-pricing">
                 <p>Hourly Rate:</p>
-                <label className="total">${props.data.price}</label>
+                <label className="total">${props.data.price.toFixed(2)}</label>
                 <p>Total Price:</p>
-                <label className="price">${props.data.price}</label>
+                <label className="price">{getTotal()}</label>
             </div>
-            <QuantityPicker></QuantityPicker> 
+            <QuantityPicker onChange={onQuantityChange} /> 
             <button className="cart-btn">Add to Cart!</button>
             </div>
             

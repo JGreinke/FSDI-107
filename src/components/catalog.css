@@ -4,3 +4,9 @@
     letter-spacing: 4px;
     margin-top: 40px;
 }
+.line{
+    border-bottom: 2px solid #e6cebcd3;
+    margin-top: 2%;
+    margin-left: 200px;
+    margin-right: 200px; 
+}

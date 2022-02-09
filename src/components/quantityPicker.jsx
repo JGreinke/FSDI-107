@@ -1,19 +1,22 @@
 import { useState } from "react"; 
 import "./quantityPicker.css"; 
 
-const QuantityPicker = () => {
+const QuantityPicker = (props) => {
     let [quantity, setQuantity] = useState(0); 
     // the variables in the bracket are [get, set]. state variables are immutable meaning they don't change (ex. quantity which is only changed with the setter)
     const handleIncrease = () => {
         let value = quantity + 1;
         if (value >= 0){
+            let value = quantity +1; 
            setQuantity(value); 
+           props.onChange(value); 
         }
     }
     const handleDecrease = () => {
         let value = quantity - 1; 
         if (value >= 0){
             setQuantity(value); 
+            props.onChange(value); 
         }
     }
     return(

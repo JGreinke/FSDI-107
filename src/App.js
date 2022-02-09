@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js"; 
 
 import NavBar from "./components/navBar";
-import QuantityPicker from "./components/quantityPicker";
+import ToDo from "./components/todo";
 import Catalog from './components/catalog';
 // you don't have to put the .jsx after navBar
 function App() {
@@ -15,6 +15,7 @@ function App() {
       <NavBar></NavBar>
       <About />
       <Catalog/>
+      <ToDo/>
       <FooterSection />
       {/* the FooterSection is an example of how to self close */}
     </div>

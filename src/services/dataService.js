@@ -12,7 +12,7 @@ var catalog = [
         title: "Kayaking Experience", 
         image: "kayak.jpg",
         description: "product description",
-        price: 200, 
+        price: 100, 
         category: "Water Experience"
     },
     {
@@ -20,7 +20,7 @@ var catalog = [
         title: "Gondola Experience", 
         image: "gondola.jpg",
         description: "product description",
-        price: 200, 
+        price: 100, 
         category: "Water Experience"
     },
     {
@@ -28,7 +28,7 @@ var catalog = [
         title: "Train Experience", 
         image: "train.jpg",
         description: "product description",
-        price: 200, 
+        price: 300, 
         category: "Travel Experience"
     },
     {
@@ -36,7 +36,7 @@ var catalog = [
         title: "Glamping Experience", 
         image: "glamping.jpg",
         description: "product description",
-        price: 200, 
+        price: 400, 
         category: "Local Experience"
     },
     {
@@ -52,7 +52,7 @@ var catalog = [
         title: "Pottery Experience", 
         image: "pottery.jpg",
         description: "product description",
-        price: 200, 
+        price: 50, 
         category: "Local Experience"
     },
     {
@@ -60,7 +60,7 @@ var catalog = [
         title: "VR Experience", 
         image: "VR.jpg",
         description: "product description",
-        price: 200, 
+        price: 150, 
         category: "Local Experience"
     },
     {
