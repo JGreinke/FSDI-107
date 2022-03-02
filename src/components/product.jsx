@@ -1,7 +1,7 @@
 import QuantityPicker from "./quantityPicker";
 import "./product.css";
 import { useState, useContext } from "react"; 
-import storeContext from "../store/storeContext"
+import storeContext from "../store/storeContext";
 
 const Product = (props) => {
     const [quantity, setQuantity] = useState(0);
@@ -40,12 +40,13 @@ const Product = (props) => {
             </div>   
             
             <div className="product-pricing">
-                <p>Hourly Rate:</p>
-                <label className="total">${props.data.price.toFixed(2)}</label>
-                <p>Total Price:</p>
+                <p className="rate">Hourly Rate:</p>
+                <label className="price">${props.data.price.toFixed(2)}</label>
+                <p className="rate">Total Price:</p>
                 <label className="price">{getTotal()}</label>
             </div>
-            <QuantityPicker onChange={onQuantityChange} /> 
+            <p><span> </span></p>
+            <QuantityPicker onChange={onQuantityChange} className="qty-change"/> 
             <button onClick={pushToCart} className="cart-btn">Add to Cart!</button>
             </div>
             

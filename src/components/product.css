@@ -21,9 +21,12 @@ img{
     border: 1px solid #4D2319;
     margin: 5px;
 }
-label{
-    display: inline-block;
+.rate{
     margin-bottom: 10px;
+}
+.price{
+    display: inline-block;
+    margin-bottom: 30px;
 }
 .image-cont{
     max-height: 300px;
@@ -38,19 +41,20 @@ label{
 }
 .product-item-desc{
     background-color: #4D2319;
-    width: 90%; 
-    margin-left: 5%;
+    width: 94%; 
+    margin-left: 3%;
     margin-top: 5%; 
     padding: 2px; 
     margin-bottom: 5%;
+    height: 130px; 
 }
 .product-desc{
     font-size: 13px;
 }
 .product-pricing{
-    line-height: 20px;
+    line-height: 10px;
     color: #4D2319;
+    border-bottom: 1px solid #4D2319; 
+    border-width: 95%;
 }
-p{
-    margin-bottom: 0;
-}
+

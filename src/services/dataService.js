@@ -1,3 +1,5 @@
+import axios from "axios"; 
+
 var catalog = [
     {
         id: "123123123123",
@@ -76,9 +78,14 @@ var catalog = [
 
 class DataService{
 
-    getCatalog() {
+    async getCatalog() {
+        // this is called Async / await function - you can't use "await" without async
+        let response = await axios.get("http://127.0.0.1:5000/api/catalog"); 
+        console.log("test", response.data); 
+        return response.data; 
 
-        return catalog; 
+        // return mock data without server
+        // return catalog; 
     }
 
     registerProduct() {

@@ -6,16 +6,17 @@ import "./catalog.css";
 const Catalog = () => {
     const [products, setProducts] = useState ([]);
     // instead of using curly braces, use brackets because it is an array
-    const loadData = () => { 
-
+    const loadData = async () => { 
+        // b/c getCatalog is an await function now, it has to also be an async/await function
         let service = new DataService(); 
-        let data = service.getCatalog(); 
+        let data = await service.getCatalog(); 
         setProducts(data); 
     };
 
+    // when the component loads
     useEffect(() => {
         loadData(); 
-    });
+    },[]);
 
 
     return (
