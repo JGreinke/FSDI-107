@@ -18,7 +18,7 @@ const ToDo = () => {
         <div className="todo-page">
             <h4>My Shopping List</h4>
             <input onChange={handleText} type="text"/>
-            <nutton onClick={handleAdd} className="btn btn-sm btn-outline-dark">Add</nutton>
+            <button onClick={handleAdd} className="btn btn-sm btn-outline-dark">Add</button>
 
             <div className="todo-list">
                 {list.map((todo)=> (

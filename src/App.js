@@ -8,6 +8,7 @@ import Catalog from "./components/catalog";
 import Cart from "./components/cart";
 import Admin from "./components/admin";
 
+
 import GlobalState from "./store/globalState";
 
 import "bootstrap/dist/css/bootstrap.min.css";

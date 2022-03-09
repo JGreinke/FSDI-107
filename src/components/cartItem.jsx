@@ -11,7 +11,7 @@ const CartItem = (props) => {
         return "$" + total.toFixed(2);
     }
     const removeFromCart = () => {
-        removeProductFromCart(props.data.id); 
+        removeProductFromCart(props.data._id); 
     }
     return(
         <div className="product-card">

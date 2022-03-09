@@ -39,3 +39,7 @@ ul {
    margin-right: 10px; 
    margin-top: -12px;  
  }
+ .navbar .btn{
+   border-radius: 0;
+   max-height: 35px;
+ }

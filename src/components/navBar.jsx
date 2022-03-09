@@ -2,7 +2,7 @@ import "./navBar.css";
 import {Link} from 'react-router-dom';
 import { useContext} from 'react'; 
 import storeContext from "../store/storeContext"; 
-
+import Weather from "./weather"; 
 
 const NavBar = () => {
     // const NavBar is an example of an arrow funtion rather than saying function NavBar (){};
@@ -16,6 +16,7 @@ const NavBar = () => {
                 <li><Link className="link" to="/about">About</Link></li>
                 <li><Link className="link" to="/todo">To-Do</Link></li>
             </ul>
+            <Weather />
             <form className="d-flex">
                 <Link className="cart-num btn btn-outline-light" to="/cart">
                     <span className="badge">{cart.length}</span>&nbsp;

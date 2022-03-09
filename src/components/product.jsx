@@ -45,7 +45,6 @@ const Product = (props) => {
                 <p className="rate">Total Price:</p>
                 <label className="price">{getTotal()}</label>
             </div>
-            <p><span> </span></p>
             <QuantityPicker onChange={onQuantityChange} className="qty-change"/> 
             <button onClick={pushToCart} className="cart-btn">Add to Cart!</button>
             </div>

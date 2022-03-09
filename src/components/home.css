@@ -32,3 +32,44 @@ p{
 .welcome{
     font-size: 60px; 
 }
+.category-desc-list{
+    margin-top: 50px; 
+    margin-bottom: 25px; 
+    margin-left: 7.5%;
+    padding-top: 11px;
+    width: 85%; 
+    background-color: #4d231985;
+    color: rgba(255, 255, 255, 0.7); 
+    line-height: 3px; 
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.category-desc-list h2{
+    font-size: 20px;
+}
+.category-desc-list p{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.category-desc-list-item{
+    padding-top: 10px; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.category-desc-list-item:hover{
+    color: #4D2319; 
+    background-color: rgba(255, 255, 255, 0.26);
+}
+.category-desc-list-header {
+    max-height: 40px; 
+    margin-top: 10px; 
+    margin-bottom: 25px; 
+    margin-left: 2.5%;
+    width: 95%; 
+    background-color: #4D2319;
+    color: rgba(255, 255, 255, 0.7); 
+    box-shadow: 0px 0px 15px 0px #ffffff81; 
+    font-family: 'Birthstone Bounce', cursive; 
+    letter-spacing: 3px;
+    font-size: 50px;  
+    line-height: 33px;
+    word-spacing: 10px; 
+}

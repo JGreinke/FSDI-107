@@ -87,7 +87,14 @@ class DataService{
         // return mock data without server
         // return catalog; 
     }
+    async getWeather(lat, lon){
+        let apiKey ="20b39ad898448a59e4c56dc3337cc9b1";
+        let url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`;
 
+        let response = await axios.get(url);
+        // console.log(response.data);
+        return response.data;
+    }
     registerProduct() {
 
     }

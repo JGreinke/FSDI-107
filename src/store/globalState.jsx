@@ -31,7 +31,7 @@ const GlobalState = (props) => {
 
         for (let i=0; i< copy.length; i++){
             let prod = copy[i]; 
-            if(prod.id === productId){
+            if(prod._id === productId){
                copy.splice(i, 1);  
             }
         }
